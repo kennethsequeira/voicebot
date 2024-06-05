@@ -11,7 +11,7 @@ load_dotenv()
 # Set up OpenAI API credentials
 openai.api_type = "azure"
 #openai.apibase = os.environ.get("OPENAI_ENDPOINT")
-openai.api_version = "2023-03-15-preview"
+#openai.api_version = "2023-03-15-preview"
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
